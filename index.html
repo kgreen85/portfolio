@@ -39,16 +39,16 @@
                     </div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-code"></i>Portfolio</a>
+                            <a class="nav-link" href="#portfolio"><i class="fa-solid fa-code"></i>Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-user"></i>About Me</a>
+                            <a class="nav-link" href="#about"><i class="fa-solid fa-user"></i>About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-envelope-open-text"></i>Contact</a>
+                            <a class="nav-link" href="#contact"><i class="fa-solid fa-envelope-open-text"></i>Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-file-lines"></i>Resumes</a>
+                            <a class="nav-link" href="./resume.html"><i class="fa-solid fa-file-lines"></i>Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -56,13 +56,11 @@
         </div>
     </header>
     <main class="main-container">
-        <section class="heading-section">
-            <div class="container text-center single-col-max-width">
+        <section id="portfolio" class="heading-section">
+            <div class="container">
                 <h2 class="heading">Portfolio</h2>
-            </div>
-            <div class="intro text-center">
-                <p>Welcome to my online portfolio</p>
-            </div>
+                <p class="intro">Welcome to my online portfolio</p>
+            </div> 
         </section>
         <section class="project-list">
             <div class="container">
@@ -77,12 +75,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title"><a href="https://giom1598.gitlab.io/brogrammers/" class="theme-link">Movie Reviews</a></h5>
                                         <p>
-                                            The site is monolith built with Django running in Docker. The backend is built 
-                                            using RESTful API's to dynamically serve the React frontend. A 3rd party api 
-                                            was used to display the movie description, IMDB rating and movie poster. We set 
-                                            up a search function to allow users to search the api and add movies to our 
-                                            PostgresSQL database. The site also includes user creation and login. The site
-                                            was deployed to Heroku using the Gitlab CI/CD pipeline.</p>
+                                            This application allows users to search a movie database api, add those movies to thier list and review them.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -96,14 +90,10 @@
                                 </div>
                                 <div class="col-12 col-xl-7">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="https://giom1598.gitlab.io/brogrammers/" class="theme-link">Movie Reviews</a></h5>
+                                        <h5 class="card-title"><a href="https://gitlab.com/kurtgreen85/fearless-frontend" class="theme-link">Conference Go</a></h5>
                                         <p>
-                                            This is an app for creating and attending conferences. It features the ability 
-                                            to create a new conference and its location. The app is built on Django with a 
-                                            RESTful API backend. It also uses two 3rd party
-                                            api's run trough an anti-corruption layer. The api's are used to dynamically
-                                            generate the conference picture and current weather data based on location. The 
-                                            front-end is build using JavaScript and React.
+                                            A conference planning application. Users can create conferences, panels for said conference and sign up to attend
+                                            already created conferences.
                                         </p>
                                     </div>
                                 </div>
@@ -118,13 +108,10 @@
                                 </div>
                                 <div class="col-12 col-xl-7">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="https://giom1598.gitlab.io/brogrammers/" class="theme-link">Movie Reviews</a></h5>
+                                        <h5 class="card-title"><a href="https://gitlab.com/kurtgreen85/project-alpha-apr" class="theme-link">Things to do</a></h5>
                                         <p>
-                                            This project is a to do list app. It features a login and sign up page. The app
-                                            is built on Django using a Python for the backend. The front-end is dynamic and
-                                            is built with Django templates. The styling is done with CSS. This i an early
-                                            solo project. During this project I learned a lot about dynamic rendering on
-                                            the front-end.</p>
+                                            A to do list application. Users can create and manage tasks.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -138,17 +125,137 @@
                                 </div>
                                 <div class="col-12 col-xl-7">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="https://giom1598.gitlab.io/brogrammers/" class="theme-link">Movie Reviews</a></h5>
+                                        <h5 class="card-title"><a href="https://gitlab.com/kurtgreen85/project-beta" class="theme-link">CarCar</a></h5>
                                         <p>
-                                            CarCar is a car dealership application for managing inventory, service appointments and sales. This was a project that I worked with another developer on. I was responsible for the service end of the app as well as the inventory portion..
-
-The Application is built with Django using RESTful API endpoints. It is broken up into 3 microservices that share data from PostgresSQL database via a polling. The app runs in Docker. Backed was built using React to create a responsive Single Page Application (SPA).
-
-</p>
+                                            This application is for managing the inventory, sales and service center of a car dealership. Users can add
+                                            vehicles to inventory, track the sale including price salesman and vehicle information and schedule vehicle
+                                            service appointments
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-6 mb-5 mobileapp frontend">
+                        <div class="card project-card">
+                            <div class="row">
+                                <div class="col-12 col-xl-5 card-img-holder">
+                                    <img src="./images/DRS assignment.png" alt="">
+                                </div>
+                                <div class="col-12 col-xl-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="https://gitlab.com/kurtgreen85/project-beta" class="theme-link">DRS home page</a></h5>
+                                        <p>
+                                            A company home page with contact page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 mobileapp frontend">
+                        <div class="card project-card">
+                            <div class="row">
+                                <div class="col-12 col-xl-5 card-img-holder">
+                                    <img src="./images/Landing page.png" alt="">
+                                </div>
+                                <div class="col-12 col-xl-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="https://gitlab.com/kurtgreen85/project-beta" class="theme-link">Generic landing page</a></h5>
+                                        <p>
+                                            A generic landing page that can be used as a template for a company home page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <hr style="margin: 0 1rem;">
+        <section id="about" class="about-section">
+            <div class="container ">
+                <h2 class="heading">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div>
+                    <p class="intro mb-5">Get to know me!</p>
+                    <div class="container single-col-max-width">
+                        <p>I am a full stack software engineer. I have a passion for tech and love creating things with code.
+                            As a software engineer I have built several full stack applications utilizing a 
+                            variety of technoligies. I am enjoy working on both the front end and the back end as both present
+                            unique challenges.
+                        </p>
+                        <br>
+                        <p>Prior to becoming a software engineer I worked for 15 years in retail grocery. I held many positions
+                            in that field from new guy just starting out to 13 years as a department manager. The experience
+                            taught me the value of team work and the important role that every member of a team plays. As a
+                            manager I learned important organization and planning skills as well as effective communication.
+                            As a software engineer these skills will help me thrive in a fast paced team environment. If
+                            you would like to know more about me please reach out via email or Linkedin.
+                        </p>
+                    </div>
+                </div>
+               <div>
+                    <p class="intro mb-5">My Skills</p>
+                    <div class="skills">
+                        <div class="skills-skill "><i class="fa-brands fa-python icon"></i>Python</div>
+                        <div class="skills-skill"><i class="fa-brands fa-python icon"></i>Django</div>
+                        <div class="skills-skill"><i class="fa-brands fa-square-js icon"></i>JavaScript</div>
+                        <div class="skills-skill"><i class="fa-brands fa-react icon"></i>React</div>
+                        <div class="skills-skill"><i class="fa-brands fa-html5 icon"></i>HTML</div>
+                        <div class="skills-skill"><i class="fa-brands fa-css3-alt icon"></i>CSS</div>
+                        <div class="skills-skill"><i class="fa-brands fa-git icon"></i>GIT</div>
+                        <div class="skills-skill"><i class="fa-brands fa-docker icon"></i>Docker</div>
+                        <div class="skills-skill">SQL</div>
+                        <div class="skills-skill">Postgres</div>
+                        <div class="skills-skill"><i class="fa-solid fa-terminal icon"></i>Terminal</div>
+               </div> 
+            </div>
+        </section>
+        <hr style="margin: 0 1rem;">
+        <section id="contact" class="contact-section">
+            <div id="contact" class="contact">
+                <h2 class="heading">Contact</h2>
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <p class="intro mb-5">Contact Form</p>
+                        <form>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Name</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Email</label>
+                                    <input type="email">
+                                </div>
+                            </div>
+                            <label>Message</label>
+                            <textarea rows="5"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <p class="intro mb-5">Contact Infomation</p>
+                        <table>
+                            <tr>
+                                <td>Email</td>
+                                <td>Kurtgreen85@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>(512) 363-9288</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>Austin, TX
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
