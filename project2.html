@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurt Greenacre</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/a4620d0d1b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header text-center">
+        <div>
+            <h1 class="name pt-lg-4 mb-0">Kurt Greenacre</h1>
+            <nav class="navbar">
+                <div class="navigation">
+                    <div class="profile">
+                        <img class="profile-image" src="./images/headshot.jpeg" alt="">
+                        <div class="bio">
+                            Hi, my name is Kurt Greenacre and I'm a software engineer. Welcome to my portfolio page!
+                        </div>
+                        <ul class="social-list">
+                            <li class="list-inline-item">
+                               <a href="https://www.linkedin.com/in/kurtgreenacre/"><i class="fa-brands fa-linkedin-in"></i></a> 
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/kgreen85"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://gitlab.com/kurtgreen85"><i class="fa-brands fa-gitlab"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#portfolio"><i class="fa-solid fa-code"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#about"><i class="fa-solid fa-user"></i>About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#contact"><i class="fa-solid fa-envelope-open-text"></i>Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./resume.html"><i class="fa-solid fa-file-lines"></i>Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="heading-section btm-border">
+            <div class="container">
+                <h2 class="heading">Conference Go</h2>
+                <p class="intro">This page contains the case study of Conference Go which
+                    includes the Project Overview, Tools Used and a GitLab Link to the code.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="project-details">
+                <div class="project-details-content">
+                    <div class="project-details-img-cont container">
+                        <img src="./images/Screen Shot 2022-10-04 at 10.53.58 AM.png" alt="" class="project-details-img">
+                    </div>
+                    <div class="project-details-content-main">
+                        <div class="project-details-desc">
+                            <h2 class="project-details-title">Project Overview</h2>
+                            <p class="project-details-para">This is an app for creating and
+                                attending conferences. It features the ability to create a
+                                new conference and its location, sign up presenters with
+                                the ability for the admin to approve or deny the presentation 
+                                with automated email response and sign up to attend a conference.
+                            </p>
+                            <p class="project-details-para">The app is built on Django with a 
+                                RESTful API backend. It also uses two 3rd party api's run 
+                                trough an anti-corruption layer. The api's are used to dynamically
+                                generate the conference picture and current weather data based on
+                                location. The front-end is build using JavaScript and React.
+                            </p>
+                        </div>
+                        <div class="tools-used">
+                            <h2 class="project-details-title">Tools Used</h2>
+                            <div class="tools">
+                                <div class="tools-tool">Python</div>
+                                <div class="tools-tool">Django</div>
+                                <div class="tools-tool">JavaScript</div>
+                                <div class="tools-tool">React</div>
+                                <div class="tools-tool">Docker</div>
+                                <div class="tools-tool">PostgresSQL</div>
+                                <div class="tools-tool">RestFull API</div>
+                                <div class="tools-tool">Gitlab</div>
+                                <div class="tools-tool">Microservices</div>
+                                
+                            </div>
+                        </div>
+                        <div class="project-details-links">
+                            <h2 class="project-details-title">See Links</h2>
+                            <a href="https://gitlab.com/kurtgreen85/fearless-frontend" class="button btn-med btn-theme project-details-links-btn">GitLab</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
