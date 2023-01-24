@@ -14,12 +14,15 @@
     
 </head>
 <body>
-    <header class="header text-center">
+    <header class="header text-center hidden-header">
         <div>
             <h1 class="name pt-lg-4 mb-0">Kurt Greenacre</h1>
-            <nav class="navbar">
-                <div class="navigation">
-                    <div class="profile">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler collapsed" type="button">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div id="navigation" class="navbar-collapse flex-column collapse show">
+                    <div class="profile pt-3">
                         <img class="profile-image" src="./images/headshot.jpeg" alt="">
                         <div class="bio">
                             Hi, my name is Kurt Greenacre and I'm a software engineer. Welcome to my portfolio page!
@@ -222,7 +225,7 @@
             </div> 
         </section>
         <hr style="margin: 0 1rem;">
-        <section id="about" class="about-section">
+        <section id="about" class="about-section container">
             <div class="container ">
                 <h2 class="heading">About Me</h2>
             </div>
@@ -263,7 +266,7 @@
             </div>
         </section>
         <hr style="margin: 0 1rem;">
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section container">
             <div id="contact" class="contact">
                 <h2 class="heading">Contact</h2>
                 <div class="contact-box">
@@ -284,7 +287,7 @@
                             </div>
                             <label>Message</label>
                             <textarea rows="5"></textarea>
-                            <button type="submit">Submit</button>
+                            <button class="submit-btn" type="submit">Submit</button>
                         </form>
                     </div>
                     <div class="contact-right">
@@ -309,5 +312,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
